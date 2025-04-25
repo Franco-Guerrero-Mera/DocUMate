@@ -1,0 +1,23 @@
+HELLO!
+This is my very first app I've created. It's not perfect but it's a proof of concept!
+The purpose of this app is to help immigrants fill out documents using AI.
+How this works is my having a user input a prompt regarding a form they want to fill out,
+then the AI (Agent) uses the User's response to generate a response with the tools it's been provided.
+Then the AI displays it's response to the front end where the user can see.
+
+The tool I've provided the AI is only a few documents that are stored in vectors in a mongoDB database.
+The Agent uses A RAG system to cross examine the user input with the documents provided, then creates the
+best response it can. Or atleast that's my understanding. A lot of this technical terminology is foregin 
+to me. But I tried the best I can!
+
+Many thanks to the wonderful people at Urban TXT who helped me through SEALS, I couldn't have done it without you! <3
+Special thanks to Bryan! Who was absolutely awesome in helping me in my struggles!
+
+LETS MAKE HISTORY!
+-Franco GM
+
+Inside of the agent folder use this command: (Starts server)
+npx ts-node index.ts
+
+In the Immigrant-helper folder use this command:(Starts project)
+npx expo
